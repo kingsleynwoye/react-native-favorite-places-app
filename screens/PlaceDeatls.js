@@ -4,7 +4,7 @@ import { ScrollView, Image, View, Text, StyleSheet } from 'react-native';
 import OutlinedButton from '../components/UI/OutlinedButton';
 import { Colors } from '../constants/colors';
 
-function PlaceDeatls({route}) {
+function PlaceDetails({route}) {
 
   //   const selectedPlaceId = route.params.placeId;
 
@@ -30,7 +30,7 @@ function PlaceDeatls({route}) {
   );
 }
 
-export default PlaceDeatls;
+export default PlaceDetails;
 
 const styles = StyleSheet.create({
   fallback: {
